@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    background-image: url("https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bree Serif", serif;
+}
+
+#heading {
+    opacity: 1;
+    font-family: "Bree Serif", serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.container {
+    height: 600px;
+    width: 80%;
+    position: relative;
+    background: rgb(170, 173, 125);
+    border: 2px solid rgb(8, 8, 8);
+    opacity: 0.8;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 1;
+    margin-top: 100px;
+}
+
+#city::placeholder {
+    color: black;
+    text-align: center;
+    border: 2px rgb(8, 8, 8);
+}
+
+#city {
+    min-width: 60%;
+    font-size: 2rem;
+    color: rgb(12, 12, 12);
+    padding: 10px;
+}
+
+.text {
+    text-align: justify;
+}
+
+.cityname {
+    font-family: Arial;
+    position: relative;
+    font-weight: 900;
+    font-size: xx-large;
+    color: rgb(25, 25, 83);
+}
+
+.info {
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.hide {
+    display: none;
+}
+
+#showdata {
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    opacity: 1;
+}
